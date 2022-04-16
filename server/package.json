@@ -3,10 +3,6 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "module": "server.js",
-  "engines": {
-    "node": "16.x"
-  },
   "scripts": {
     "start": "node server.js",
     "dev": "nodemon server.js",
@@ -32,15 +28,7 @@
     "stripe": "^8.178.0",
     "validator": "^13.7.0"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/AppleJaxxZ/easylanding-alert.git"
-  },
   "keywords": [],
   "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/AppleJaxxZ/easylanding-alert/issues"
-  },
-  "homepage": "https://github.com/AppleJaxxZ/easylanding-alert#readme"
+  "license": "ISC"
 }
