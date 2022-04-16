@@ -2,7 +2,7 @@ import { useEffect } from 'react';
 import axios from 'axios';
 function App() {
   const get = async () => {
-    const { data } = await axios.get('/api/hello');
+    const { data } = await axios.get('/api/prices');
     console.log('data', data);
   };
   useEffect(() => {

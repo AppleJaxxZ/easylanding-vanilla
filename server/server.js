@@ -44,8 +44,6 @@ mongoose
   .catch((err) => console.log('DB Error => ', err));
 
 // middlewares
-app.use(express.static('public'));
-app.use(express.json({ limit: '5mb' }));
 app.use(cors());
 // jwt authentication
 app.use(passport.initialize());
